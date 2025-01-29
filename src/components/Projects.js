@@ -10,7 +10,7 @@ const projects = [
     description:
       "The Music Academy project, developed with Next.js, provides an engaging, high-performance platform for music education. Utilizing Next.js’ server-side rendering (SSR) and static site generation (SSG), it ensures fast load times, enhancing user experience. The platform includes personalized user dashboards, enabling students to track progress and enroll in classes",
     image: musicAcademyImage, // Path to the thumbnail image
-    video: "/video/musicAcademy.gif", // Path to the video file
+    video: "/gif/musicAcademy.gif", // Path to the video file
 
     liveLink: "https://music-academy-drab.vercel.app/",
     githubLink: "https://github.com/Ak-Yadav3122/Music-Academy",
