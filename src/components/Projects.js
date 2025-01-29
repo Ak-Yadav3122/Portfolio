@@ -1,7 +1,7 @@
 // Import images from assets
-import musicAcademyImage from "./assets/music-academy-ss.png";
-import jobportalImage from "./assets/job-portal-ss.png";
-import interviewPlateformImage from "./assets/video-Interview-ss.png";
+import musicAcademyImage from "../assets/music-academy-ss.png";
+import jobportalImage from "../assets/job-portal-ss.png";
+import interviewPlateformImage from "../assets/video-Interview-ss.png";
 
 const projects = [
   {
