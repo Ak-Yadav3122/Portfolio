@@ -228,22 +228,13 @@ function Portfolio() {
                 className="project-item p-5 rounded-lg shadow-lg w-full text-start backdrop-blur-lg bg-opacity-50 border border-white/20"
               >
                 <div className="relative w-full p-0 h-48 overflow-hidden rounded-md mb-4">
-                  {/* Video preview on hover */}
-                  <video
-                    src={project.video} // Reference to the video file in the public folder
-                    poster={project.image} // Fallback image as a thumbnail
+                  {/* GIF preview on hover */}
+                  <img
+                    src={project.image} // Default static image
                     className="w-full h-full object-contain cursor-pointer"
-                    onMouseEnter={(e) => {
-                      e.target.play();
-                      e.target.playbackRate = 2;
-                    }} // Play video on hover
-                    onMouseLeave={(e) => {
-                      e.target.pause(); // Pause video on mouse leave
-                      e.target.currentTime = 0;
-                      e.target.load(); // Reset video to the start
-                    }}
-                    muted // Mute video for preview
-                    loop={false} // Optional: Loop the video during hover
+                    onMouseEnter={(e) => (e.target.src = project.video)} // Show GIF on hover
+                    onMouseLeave={(e) => (e.target.src = project.image)} // Show static image on mouse leave
+                    alt={project.title}
                   />
                 </div>
 
