@@ -23,7 +23,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "Interview-Plateform",
+    title: "Interview-Platform",
     description:
       "It is a online interview platform and a real-time video call application with secure user authentication, allowing users to sign up, log in, and manage their interviews. With a user-friendly interface, Interviewer can create, edit, and delete enterview schedule, all while enjoying a secure, personalized experience.",
     image: "/assets/video-Interview-ss.png",
