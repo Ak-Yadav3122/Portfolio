@@ -135,7 +135,7 @@ function Portfolio() {
               className="md:mt-0 bg-slate-950 border-red-800 hover:scale-105 border-2 rounded-lg font-normal hover:border-blue-900 hover:bg-black opacity-70 text-slate-100 transition-all duration-300"
               onClick={() =>
                 window.open(
-                  `https://drive.google.com/file/d/1Q73kzAxa-QQ7LmueNvKfewJhgZuLV9RM/view?usp=sharing`,
+                  `https://drive.google.com/file/d/1Vdqooq-eRzbXwGrCEtY7kw9L-E1xgn2r/view?usp=sharing`,
                   "_blank"
                 )
               }
