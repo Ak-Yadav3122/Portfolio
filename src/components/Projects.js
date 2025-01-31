@@ -4,7 +4,7 @@ const projects = [
     id: 1,
     title: "Music Academy",
     description:
-      "The Music Academy project, developed with Next.js, provides an engaging, high-performance platform for music education. Utilizing Next.js’ server-side rendering (SSR) and static site generation (SSG), it ensures fast load times, enhancing user experience. The platform includes personalized user dashboards, enabling students to track progress and enroll in classes",
+      "The Music Academy project, developed with Next.js, provides an engaging, high-performance platform for music education. Utilizing Next.js server-side rendering (SSR) and static site generation (SSG), it ensures fast load times, enhancing user experience. The platform includes personalized user dashboards, enabling students to track progress and enroll in classes",
     image: "/assets/music-Academy-ss.png", // Path to the thumbnail image
     video: "/video/musicAcademy.gif", // Path to the video file
 
