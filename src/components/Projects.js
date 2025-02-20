@@ -28,7 +28,7 @@ const projects = [
       "Users can register, log in, and manage their interviews using this secure user authentication real-time video call application and online interview platform. Interviewers can establish, modify, and remove interview schedules with ease thanks to an intuitive UI, all while having a safe, customized experience.",
     image: "/assets/video-Interview-ss.png",
     video: "/video/videoInterview.gif",
-    liveLink: "https://interview-plateform.vercel.app/",
+    liveLink: "https://jobsync.aichchhik.xyz",
     githubLink: "https://github.com/Ak-Yadav3122/Interview-Plateform",
   },
 ];
