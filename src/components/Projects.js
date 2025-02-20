@@ -18,7 +18,7 @@ const projects = [
       "Users can search and apply for jobs that fit their preferences and skill set. Employers can create profiles, post job openings, manage applications, and interact with potential candidates through a dedicated dashboard.",
     image: "/assets/job-portal-ss.png",
     video: "/video/JobPortal.gif",
-    liveLink: "https://jobsync.aichchhik.xyz/",
+    liveLink: "https://job-portal.aichchhik.xyz",
     githubLink: "https://github.com/Ak-Yadav3122/Job-Portal",
   },
   {
