@@ -14,7 +14,7 @@ const projects = [
     id: 2,
     title: "JOB PORTAL",
     description:
-      "Users can search and apply for jobs that fit their preferences and skill set. Employers can create profiles, post job openings, manage applications, and interact with potential candidates through a dedicated dashboard.",
+      "Users can search and apply for jobs that fit their preferences and skill set. Implemented authentication using JWT and role-based access control. Employers can create profiles, post job openings, manage applications, and interact with potential candidates through a dedicated dashboard.",
     image: "/assets/job-portal-ss.png",
     video: "/video/JobPortal.gif",
     liveLink: "https://job-portal.aichchhik.xyz",
@@ -32,10 +32,10 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "  Blogify-Blog Platform",
     description:
-      "Secure user authentication with easy login and logout functionality, Effortlessly manage blog posts by creating, reading, updating, or     deleting content. Engage with other users and manage your content seamlessly andshow appreciation for your favorite posts by liking them.Authors can view details of users who interact with their posts.",
+      "Secure user authentication with easy login and logout functionality, Effortlessly manage blog posts by creating, reading, updating, or deleting content. Engage with other users and manage your content seamlessly andshow appreciation for your favorite posts by liking them.Authors can view details of users who interact with their posts.",
     image: "/assets/blog-platform.png",
     video: "/video/blog-platform.gif",
     liveLink: "https://blogify.aichchhik.xyz",
