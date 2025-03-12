@@ -24,10 +24,10 @@ function Portfolio() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setIsVisible(true); // Set visibility to true after a delay
-    }, 500); // Delay of 0.5 seconds
+      setIsVisible(true); 
+    }, 500); 
 
-    return () => clearTimeout(timer); // Cleanup the timer
+    return () => clearTimeout(timer); 
   }, []);
 
   return (
@@ -230,7 +230,7 @@ function Portfolio() {
                 <div className="relative w-full p-0 h-48 overflow-hidden rounded-md mb-4">
                   {/* GIF preview on hover */}
                   <img
-                    src={project.image} // Default static image
+                    src={project.image} 
                     className="w-full h-full object-contain cursor-pointer"
                     onMouseEnter={(e) => (e.target.src = project.video)} // Show GIF on hover
                     onMouseLeave={(e) => (e.target.src = project.image)} // Show static image on mouse leave
