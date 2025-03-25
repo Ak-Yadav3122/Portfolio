@@ -232,8 +232,8 @@ function Portfolio() {
                   <img
                     src={project.image} 
                     className="w-full h-full object-contain cursor-pointer"
-                    onMouseEnter={(e) => (e.target.src = project.video)} // Show GIF on hover
-                    onMouseLeave={(e) => (e.target.src = project.image)} // Show static image on mouse leave
+                    onMouseEnter={(e) => (e.target.src = project.video)} 
+                    onMouseLeave={(e) => (e.target.src = project.image)} 
                     alt={project.title}
                   />
                 </div>
